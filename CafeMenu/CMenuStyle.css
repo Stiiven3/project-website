@@ -1,0 +1,119 @@
+
+h1, h2, p,table {
+    text-align: center; /* centra el texto */
+  }
+
+  h1,h2{
+    
+    font-family: Impact, serif;
+  }
+  h1{
+    margin-top:0;
+    margin-bottom:15px;
+  }
+
+  hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    border-width: 1px;
+  }
+  .MargenAbajo{ /* Llamamos al hr que esta debajo del elemento cinnamon y tiene una clase de nombre MargenAbajo para luego controlar el margen de altura*/
+
+    margin-top: 25px;
+  }
+  .establecer{
+    font-family:italic;
+  }
+
+  h1{
+
+    font-size: 40px; 
+  }
+
+  h2{
+
+    font-size:30px ;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;
+  }
+
+  body{
+
+        background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+        font-family:sans-serif ;
+  }
+
+/* 
+
+en esta parte estoy llamando a mi div que tiene por clase menu,logrando de esta manera 
+que los estilos que establezca solo sean aplicados a los elemento que estan dentro  del div
+
+*/
+ .menu{
+
+      width: 80%;
+      background-color: burlywood;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      max-width:500px;/*evita que cresta demaciado el ancho*/
+  }
+
+/*aqui le estoy  estableciendo que el texto precio esta  ubicado a la izquierada
+y especificando la distancia con el width
+*/
+.flavor,.dessert{
+
+    text-align: left;
+    width: 49% ;
+  }
+/*aqui le estoy  estableciendo que el texto precio, esta ubicado a la derecha 
+y especificando la distancia con el width
+*/
+.price{
+    text-align: right;
+    width:49%; 
+  }
+
+/*
+Esta linear de cogigo sirve para alinear dos texto que estan a la derecha y izquierada de la
+pantalla en la misma linea 
+ */
+.item p{
+
+    display:inline-block;
+    margin-bottom:5px ;
+    margin-top:5px;
+    font-size:18px;
+}
+
+/*FOOTER*/
+
+
+footer{
+  font-size: 14px;
+}
+
+a{
+  color:black;
+}
+a:visited{
+ color:black ;
+}
+
+a:hover{
+  color:brown;
+}
+
+a:active{
+  color:brown;
+}
+
+.address{
+  margin-bottom:5px;
+}
