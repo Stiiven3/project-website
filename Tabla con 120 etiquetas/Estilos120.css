@@ -1,0 +1,10 @@
+body{
+    background-image: radial-gradient(circle at -7.92% 9.44%, #0088ff 0, #0084ff 7.14%, #007fff 14.29%, #0079ff 21.43%, #0071ff 28.57%, #0069ff 35.71%, #505efe 42.86%, #7e52f2 50%, #9d43e4 57.14%, #b631d5 64.29%, #c915c4 71.43%, #d800b1 78.57%, #e4009e 85.71%, #ec008b 92.86%, #f10077 100%);
+}
+
+h1,p{
+
+    color: white;
+    font-family:sans-serif ;
+    
+}
