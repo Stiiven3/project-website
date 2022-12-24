@@ -1,0 +1,4 @@
+Para poner un div a la derecha de otro la mejor forma es usar la propiedad display flex
+por que de esta manera evitamos el deformamiento.
+
+

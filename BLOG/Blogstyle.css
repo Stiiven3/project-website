@@ -1,0 +1,108 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+
+   
+}
+
+body{
+
+    background-image:url(IMG/pngtree-abstract-technology-background-technical-electric-image_443494.jpg);
+}
+header{
+
+    text-decoration: none;
+    background-color: rgba(255, 255, 255,0.9);
+    width: 100%;
+    position: fixed;
+}
+
+.Nav ul  {
+
+    list-style: none;
+}
+.Menu> li{
+
+    position: relative;
+    display: inline-block;
+}
+
+.Menu>li>a{
+
+    display: block;
+    padding: 15px 20px;
+    color: black ;
+    font-family:'Open sans';
+    text-decoration: none; 
+}
+
+.Menu  li a:hover{
+
+    color: #ce7d35; ;
+    transition: all .3s;
+}
+
+.Menu{
+
+    list-style:none;
+    display: flex;
+    justify-content: right;
+}
+
+
+.container{
+
+    display: flex;    
+}
+
+.article{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.8);
+    padding: 35px;
+    padding-top: 50px ;
+    margin-left: 200px;
+    margin-right: 60px;
+    
+    
+}
+
+.search{
+
+    height: 842px;
+    
+    margin:100px;
+    background-color:rgb(255,255 ,255,0.5 );
+    margin-right: 100px;
+    margin-left: 200px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+   
+  
+    
+}
+
+
+
+.item{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Buscar{
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+input{
+
+    margin-right: 15px;
+}
