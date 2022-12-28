@@ -1,0 +1,24 @@
+Con este proyectos de freecode camp, pude aprender  mas sobre comos funcionan los colores en html y como centrar 
+un div
+
+para poner colores tenemos 
+
+la propiedad background color;
+
+los colores pueden ser de 3 tipos 
+
+rbg
+hls
+hexadecimal
+
+tambien pude aprender las siguientes propiedades que desconocia 
+
+border-left-width:10px;  ------aumenta el ancho del border
+
+border-left-style:solid; ______ le da un  estilo al border 
+
+black-left-color:black;----- establece de que color se vera el border
+
+luego tenemos la propiedad 
+
+box-shadow (Posicion x y radial color) -- para dar sombras   
