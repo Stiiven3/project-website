@@ -1,0 +1,59 @@
+h1,h2,p{
+
+text-align: center;
+
+}
+
+body{
+    
+    background-image: url(../cholo/Fondos-de-pantalla-de-helado-1920x1200-42-imagen-de-helado-de-pantalla-panoramica-Full-HD-en.jpg) ;
+}
+
+.IceCream{
+
+ width: 60%;
+ background-color: lightcyan;
+margin-left: auto;
+margin-right: auto;
+padding-left: 25px;
+padding-right: 25px ;
+
+}
+
+
+
+.flavor{
+    
+    text-align: left ;
+    width: 49%;
+}
+.price{
+    text-align: right;
+    width: 49%;
+}
+.object p { 
+    /* llamo a la clase objeto de esta manera puedo cambiar las propiedades  de ella le especifico que quiero  el
+    elemento p */
+
+    display: inline-block; /* alinea el texto en una columna */
+
+}
+.calcu{
+    width: 9%;
+    background-color: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px ;
+  
+}
+input{
+    width: 90%;    
+}
+
+.mas, .menos{
+    margin-right: auto;
+    background-color: coral;
+}
+
