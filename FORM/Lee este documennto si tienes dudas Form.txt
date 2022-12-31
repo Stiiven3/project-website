@@ -1,0 +1,29 @@
+Con esto creamos un formulario
+
+Realizando este programa lograste aprender lo siguiente
+
+<fieldset></fieldset>
+
+<legend><legend>
+
+<input></input>
+
+<select></select>
+
+<option><option>
+
+<form><form>
+
+
+lo siguientes atributos que se usan en la etiqueta input
+
+placeholder
+name
+value
+type
+riquered
+min
+max
+id
+
+siguientes atributos que se utilizan en la etiqueta label
