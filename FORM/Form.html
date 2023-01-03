@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+        <head>
+            <title></title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styleForm.css">
+            <link rel="ico" type="imagen.png" href="">
+        </head>
+
+        <body>
+
+
+                <h1>Registration Form</h1>
+                <p>Please fill out this form with the required information</p>
+            <form>
+
+                    <fieldset>
+                        
+                        <label for="Name">Enter your name: <input type="text" id="Name"></label>
+                        <label for="Last Name">Enter your Last Name: <input type="text" id="Last Name"></label>
+                        <label for="Email">Enter your Email: <input type="email" id="Email"></label>
+                        <label for="Password">Enter your Password: <input type="password" id="Password"></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="Personal-Account"><input type="radio" name="Account" class="inline">Personal Account</label>
+                        <label for="Business-Account"><input type="radio" name="Account" class="inline">Business Account</label>
+                        <label for="Term and conditions"><input type="checkbox" class="inline">I accetp the <a href="https://www.freecodecamp.org/news/terms-of-service/">term and conditions</a></label>
+                    </fieldset>
+
+                    <fieldset>
+                     <label for="profile-picture">choose a imagen of perfil<input type="file" id="profile-picture" name="profile-picture"></label>
+                     <label for="age">give your age<input type="number" min="13" max="120" id="age" name="age"></label>
+
+                     <label for="referrer">
+                        how did you meet  about us 
+
+                        <select id="referrer" name="referrer">
+                            
+                                    <option >select one</option>
+                                    <option >Freecodecamp youtube</option>
+                                    <option >Freecodecamp wedsite</option>
+                                    <option >Freecodecamp facebook</option>
+                                    <option >other</option>
+
+                        </select>
+                     </label>
+
+                     <label for="bio"> Provide a bio:
+
+                        <textarea id="bio" cols="30" rows="10" name="bio "placeholder="I like coding on the beach..."></textarea>
+
+                     </label>
+                    
+                    </fieldset>
+
+                    <input type="submit">
+                
+            </form>
+
+        </body>
+</html>
+
+<!--
+    in this proyect i create a form i could  keep learned more elements of html
+    like:
+
+    <textarea></textarea>
+    <select></select>
+    <option></option>
+    <label></label>
+    <fieldset></fieldset>
+
+    also i could  keed learned  atributte
+
+    id   
+    for  
+    type 
+    placeholder
+    name
+    cols
+    rows
+    min
+    max
+-->
