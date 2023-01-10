@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+   width:60vw;
+   max-width: 600px;
+   min-width: 100px;
+    background: linear-gradient(rgb(194, 6, 137), rgb(95, 3, 60), rgb(121, 5, 76));
+   
+    margin:20px auto ;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.container p{
+
+    color:#ffffff;
+    margin: 30px auto ;
+    font-size: 1em;
+}
+
+.container button {
+
+    color: #ffffff;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    min-width: 30px;
+    font-size: 1em;
+}
